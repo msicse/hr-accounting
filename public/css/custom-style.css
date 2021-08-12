@@ -1,0 +1,27 @@
+
+.remove-margin-p p{ margin-bottom: 0px !important; }
+.admin-sellect-option{margin-top: 20px;}
+.remove-margin-p label{font-size: 18px;}
+.custom-font{font-size: 20px;padding:5px;}
+.margin-top-40{margin-top: 40px; }
+.form-control, output {
+	font-size: 18px;
+	line-height: 1.42857143;
+	color: #000; 
+}
+
+.remove-padding { padding: 0px !important; }
+
+ @media print { 
+       
+        body * {
+          display:none;
+        }
+
+        body .printable {
+          display:block;
+        }
+    }
+	
+.dataTables_info { padding-left: 30px !important;  }
+.dataTables_length { padding-left: 30px !important; }
